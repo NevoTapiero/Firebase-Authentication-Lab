@@ -7,6 +7,34 @@
 <body>
     Great Job!
     <br>
-    <a href="/"><button>signout</button></a>
+    <form method="post" action="/add_tweet">
+        <h3>TWEET</h3>
+        <div>
+        <p>you'r title</p>
+        <div>
+            <input type="text" name="title">
+        </div>
+        </div>
+
+        <div>
+            <p>you'r content</p>
+        <div>
+            <input type="text" name="content" maxlength="280">
+        </div>
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+
+    <div>
+        <a href="/all_tweets"><button>your tweets</button></a>
+
+    </div>
+    <div>
+        <a href="/"><button>signout</button></a>
+    </div>
+
 </body>
 </html>
